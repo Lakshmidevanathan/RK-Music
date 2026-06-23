@@ -12,6 +12,7 @@ import {
   parseRagaOutlineFilename,
 } from "../src/lib/import-utils";
 import { writePdfWithRotation } from "../src/lib/pdf-rotate";
+import { exportSiteData } from "./export-site-data";
 
 const ROOT = process.cwd();
 const SONGS_DIR = path.join(ROOT, "Songs");
@@ -273,6 +274,8 @@ async function main() {
 
   console.log("\nImporting Raga Outlines...");
   await importRagaOutlines();
+
+  await exportSiteData();
 
   const songCount = await prisma.song.count();
   const outlineCount = await prisma.ragaOutline.count();

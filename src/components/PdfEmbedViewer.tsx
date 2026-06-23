@@ -1,7 +1,8 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
+import { assetUrl } from "@/lib/asset-url";
 import "react-pdf/dist/Page/AnnotationLayer.css";
 import "react-pdf/dist/Page/TextLayer.css";
 
@@ -17,6 +18,7 @@ type PdfEmbedViewerProps = {
 };
 
 export function PdfEmbedViewer({ url, title }: PdfEmbedViewerProps) {
+  const resolvedUrl = useMemo(() => assetUrl(url), [url]);
   const containerRef = useRef<HTMLDivElement>(null);
   const [numPages, setNumPages] = useState(0);
   const [pageWidth, setPageWidth] = useState(640);
@@ -52,7 +54,7 @@ export function PdfEmbedViewer({ url, title }: PdfEmbedViewerProps) {
 
   const scaledWidth = Math.round(pageWidth * zoom);
   const downloadName = decodeURIComponent(
-    url.split("/").pop() ?? "document.pdf",
+    resolvedUrl.split("/").pop() ?? "document.pdf",
   );
 
   return (
@@ -87,14 +89,14 @@ export function PdfEmbedViewer({ url, title }: PdfEmbedViewerProps) {
             Reset
           </button>
           <a
-            href={url}
+            href={resolvedUrl}
             download={downloadName}
             className="rounded-md border border-border px-2 py-1 text-xs text-accent hover:border-accent"
           >
             Download
           </a>
           <a
-            href={url}
+            href={resolvedUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-md border border-border px-2 py-1 text-xs text-accent hover:border-accent"
@@ -112,8 +114,8 @@ export function PdfEmbedViewer({ url, title }: PdfEmbedViewerProps) {
           <p className="py-8 text-center text-sm text-muted">{error}</p>
         ) : (
           <Document
-            key={url}
-            file={url}
+            key={resolvedUrl}
+            file={resolvedUrl}
             onLoadSuccess={onLoadSuccess}
             onLoadError={onLoadError}
             loading={
@@ -124,7 +126,7 @@ export function PdfEmbedViewer({ url, title }: PdfEmbedViewerProps) {
             {loading && numPages === 0 ? null : (
               Array.from({ length: numPages }, (_, index) => (
                 <Page
-                  key={`${url}-page-${index + 1}`}
+                  key={`${resolvedUrl}-page-${index + 1}`}
                   pageNumber={index + 1}
                   width={scaledWidth}
                   className="shadow-md"

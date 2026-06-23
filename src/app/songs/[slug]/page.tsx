@@ -5,22 +5,18 @@ import { DocumentPanel } from "@/components/DocumentPanel";
 import { MetadataField } from "@/components/MetadataList";
 import { RelatedLinks } from "@/components/SimilarLinks";
 import { SongMetadataPanel } from "@/components/SongMetadataPanel";
+import { getSongBySlug, getSongs } from "@/lib/data";
 import { parseJsonArray } from "@/lib/json";
-import { prisma } from "@/lib/prisma";
-
-export const dynamic = "force-dynamic";
 
 type Props = { params: Promise<{ slug: string }> };
 
+export function generateStaticParams() {
+  return getSongs().map((song) => ({ slug: song.slug }));
+}
+
 export default async function SongDetailPage({ params }: Props) {
   const { slug } = await params;
-
-  const song = await prisma.song.findUnique({
-    where: { slug },
-    include: {
-      media: { orderBy: { sortOrder: "asc" } },
-    },
-  });
+  const song = getSongBySlug(slug);
 
   if (!song) notFound();
 

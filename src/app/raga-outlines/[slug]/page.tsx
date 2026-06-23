@@ -1,21 +1,17 @@
 import { notFound } from "next/navigation";
 import { AudioPlayer } from "@/components/AudioPlayer";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { prisma } from "@/lib/prisma";
-
-export const dynamic = "force-dynamic";
+import { getRagaOutlineBySlug, getRagaOutlines } from "@/lib/data";
 
 type Props = { params: Promise<{ slug: string }> };
 
+export function generateStaticParams() {
+  return getRagaOutlines().map((outline) => ({ slug: outline.slug }));
+}
+
 export default async function RagaOutlineDetailPage({ params }: Props) {
   const { slug } = await params;
-
-  const outline = await prisma.ragaOutline.findUnique({
-    where: { slug },
-    include: {
-      media: { orderBy: { sortOrder: "asc" } },
-    },
-  });
+  const outline = getRagaOutlineBySlug(slug);
 
   if (!outline) notFound();
 

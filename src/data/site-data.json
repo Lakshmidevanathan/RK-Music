@@ -1,0 +1,500 @@
+{
+  "songs": [
+    {
+      "id": "cmpqtu41g0000h43n60zalml1",
+      "slug": "bantu-reethi",
+      "title": "Bantu Reethi",
+      "composer": "Tyagaraja",
+      "ragams": "[\"Hamsanadam\"]",
+      "taalam": "Adi",
+      "songType": "Krithi",
+      "language": "Telugu",
+      "deity": "Lord Rama",
+      "similarLinks": "[]",
+      "media": [
+        {
+          "id": "cmqqbqn0e00019k3nenf3o39r",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "20190224-BantuReethi-Practice-G-148bpm.mp3",
+          "label": "Learning Recording",
+          "publicUrl": "/media/songs/bantu-reethi/20190224-BantuReethi-Practice-G-148bpm.mp3",
+          "sortOrder": 0
+        },
+        {
+          "id": "cmqqbqn1i00029k3nc5gl7eom",
+          "type": "pdf",
+          "kind": "notation",
+          "filename": "20190228-BantuReethi-Hamsanadam-Adi-Notation.pdf",
+          "label": "Notation",
+          "publicUrl": "/media/songs/bantu-reethi/20190228-BantuReethi-Hamsanadam-Adi-Notation.pdf",
+          "sortOrder": 0
+        }
+      ]
+    },
+    {
+      "id": "cmpqtu42t0003h43nnzgghftl",
+      "slug": "behag-thillana",
+      "title": "Behag Thillana",
+      "composer": "Harikesanallur Muthiah Bhagavathar",
+      "ragams": "[\"Behag\"]",
+      "taalam": "Adi",
+      "songType": "Thillana",
+      "language": "Sanskrit",
+      "deity": "Devi",
+      "similarLinks": "[]",
+      "media": [
+        {
+          "id": "cmqqbqn2200049k3npyet9oiz",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "20141025-01-Thillana-Behag.mp3",
+          "label": "Pallavi",
+          "publicUrl": "/media/songs/behag-thillana/20141025-01-Thillana-Behag.mp3",
+          "sortOrder": 0
+        },
+        {
+          "id": "cmqqbqn3a00089k3nnvevphba",
+          "type": "pdf",
+          "kind": "notation",
+          "filename": "20160603-Behag-Tillana-HKMB-Notn.pdf",
+          "label": "Notation",
+          "publicUrl": "/media/songs/behag-thillana/20160603-Behag-Tillana-HKMB-Notn.pdf",
+          "sortOrder": 0
+        },
+        {
+          "id": "cmqqbqn2800059k3nm4lxlv16",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "20141025-02-Thillana-Behag.mp3",
+          "label": "Anupallavi",
+          "publicUrl": "/media/songs/behag-thillana/20141025-02-Thillana-Behag.mp3",
+          "sortOrder": 1
+        },
+        {
+          "id": "cmqqbqn2e00069k3nibjc9yhz",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "20141025-03-Thillana-Behag.mp3",
+          "label": "Caranam Part 1",
+          "publicUrl": "/media/songs/behag-thillana/20141025-03-Thillana-Behag.mp3",
+          "sortOrder": 2
+        },
+        {
+          "id": "cmqqbqn2j00079k3n6m8vv0c3",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "20141025-04-Thillana-Behag.mp3",
+          "label": "Caranam Part 2",
+          "publicUrl": "/media/songs/behag-thillana/20141025-04-Thillana-Behag.mp3",
+          "sortOrder": 3
+        }
+      ]
+    },
+    {
+      "id": "cmqg6mdaw0009x43neki9r7gr",
+      "slug": "devadi-deva-sadasiva",
+      "title": "Devadi deva sadasiva",
+      "composer": "Tyagaraja",
+      "ragams": "[\"Sinduramakriya\"]",
+      "taalam": "Adi",
+      "songType": "Krithi",
+      "language": "Sanskrit",
+      "deity": "Siva",
+      "similarLinks": "[{\"label\":\"M.S. Subbulakshmi version\",\"url\":\"https://www.youtube.com/watch?v=TlCgD1bAl-Y\"},{\"label\":\"Ashwath Narayanan version\",\"url\":\"https://www.youtube.com/watch?v=y1c0_4ICFik\"}]",
+      "media": [
+        {
+          "id": "cmqqbqn3t000a9k3nnr2kksnu",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "01-Pallavi Devadideva Sadasiva.mp3",
+          "label": "Pallavi",
+          "publicUrl": "/media/songs/devadi-deva-sadasiva/01-Pallavi Devadideva Sadasiva.mp3",
+          "sortOrder": 0
+        },
+        {
+          "id": "cmqqbqn4g000d9k3noxg84pix",
+          "type": "pdf",
+          "kind": "lyrics",
+          "filename": "Devadi deva sadasiva lyrics and meaning.pdf",
+          "label": "Lyrics and meaning",
+          "publicUrl": "/media/songs/devadi-deva-sadasiva/Devadi deva sadasiva lyrics and meaning.pdf",
+          "sortOrder": 0
+        },
+        {
+          "id": "cmqqbqn41000b9k3n2yya97sq",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "02-Anupallavi Devadideva Sadasiva.mp3",
+          "label": "Anupallavi",
+          "publicUrl": "/media/songs/devadi-deva-sadasiva/02-Anupallavi Devadideva Sadasiva.mp3",
+          "sortOrder": 1
+        },
+        {
+          "id": "cmqqbqn55000e9k3nfwdbt9be",
+          "type": "pdf",
+          "kind": "notation",
+          "filename": "Devadi deva sadasiva notation.pdf",
+          "label": "Notation",
+          "publicUrl": "/media/songs/devadi-deva-sadasiva/Devadi deva sadasiva notation.pdf",
+          "sortOrder": 1
+        },
+        {
+          "id": "cmqqbqn49000c9k3n1kcq907y",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "03-Caranam Devadideva Sadasiva.mp3",
+          "label": "Caranam",
+          "publicUrl": "/media/songs/devadi-deva-sadasiva/03-Caranam Devadideva Sadasiva.mp3",
+          "sortOrder": 2
+        }
+      ]
+    },
+    {
+      "id": "cmqeq1lth000eg83nill6okbm",
+      "slug": "devi-neeye-thunai",
+      "title": "Devi Neeye Thunai",
+      "composer": "Papanasam Sivan",
+      "ragams": "[\"Keeravani\"]",
+      "taalam": "Adi",
+      "songType": "Krithi",
+      "language": "Tamil",
+      "deity": "Devi",
+      "similarLinks": "[]",
+      "media": [
+        {
+          "id": "cmqqbqn5o000g9k3ni12vyc9d",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "DeviNeeyeThunai Learning.mp3",
+          "label": "Learning Recording",
+          "publicUrl": "/media/songs/devi-neeye-thunai/DeviNeeyeThunai Learning.mp3",
+          "sortOrder": 0
+        },
+        {
+          "id": "cmqqbqn68000h9k3n00jqlvx3",
+          "type": "pdf",
+          "kind": "notation",
+          "filename": "DeviNeeyeThunai Notation.pdf",
+          "label": "Notation",
+          "publicUrl": "/media/songs/devi-neeye-thunai/DeviNeeyeThunai Notation.pdf",
+          "sortOrder": 0
+        }
+      ]
+    },
+    {
+      "id": "cmqq62axm000ifw3nptv2q843",
+      "slug": "endaro-mahanubhavulu",
+      "title": "Endaro Mahanubhavulu",
+      "composer": "Tyagaraja",
+      "ragams": "[\"Sri\"]",
+      "taalam": "Adi",
+      "songType": "Pancharatna Krithi",
+      "language": "Telugu",
+      "deity": "Lord Rama",
+      "similarLinks": "[]",
+      "media": [
+        {
+          "id": "cmqqbqn6r000j9k3njn92ol90",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "01 20140218-19-Endaro-Pallavi-Say.mp3",
+          "label": "Pallavi Words",
+          "publicUrl": "/media/songs/endaro-mahanubhavulu/01 20140218-19-Endaro-Pallavi-Say.mp3",
+          "sortOrder": 0
+        },
+        {
+          "id": "cmqqbqn9o000x9k3nij8cjom7",
+          "type": "pdf",
+          "kind": "notation",
+          "filename": "Notation endarO mahAnubhAvulu.pdf",
+          "label": "Notation",
+          "publicUrl": "/media/songs/endaro-mahanubhavulu/Notation endarO mahAnubhAvulu.pdf",
+          "sortOrder": 0
+        },
+        {
+          "id": "cmqqbqn6z000k9k3nht7u4wam",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "02 20140218-21-Endaro-Pallavi-Sing.mp3",
+          "label": "Pallavi Singing",
+          "publicUrl": "/media/songs/endaro-mahanubhavulu/02 20140218-21-Endaro-Pallavi-Sing.mp3",
+          "sortOrder": 1
+        },
+        {
+          "id": "cmqqbqna5000y9k3nd7qarsx8",
+          "type": "pdf",
+          "kind": "other",
+          "filename": "endarO mahAnubhAvulu Phrases v2.pdf",
+          "label": "Phrases",
+          "publicUrl": "/media/songs/endaro-mahanubhavulu/endarO mahAnubhAvulu Phrases v2.pdf",
+          "sortOrder": 1
+        },
+        {
+          "id": "cmqqbqn75000l9k3nc1e179cn",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "03 20140218-20-Endaro-Anupallavi-Say.mp3",
+          "label": "Anupallavi Words",
+          "publicUrl": "/media/songs/endaro-mahanubhavulu/03 20140218-20-Endaro-Anupallavi-Say.mp3",
+          "sortOrder": 2
+        },
+        {
+          "id": "cmqqbqn7b000m9k3n6skvabig",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "04 20140218-22-Endaro-Anupallavi-Sing.mp3",
+          "label": "Anupallavi Singing",
+          "publicUrl": "/media/songs/endaro-mahanubhavulu/04 20140218-22-Endaro-Anupallavi-Sing.mp3",
+          "sortOrder": 3
+        },
+        {
+          "id": "cmqqbqn7h000n9k3ncir0j8hf",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "05 20140219-01-Endaro-Charanam1.mp3",
+          "label": "Charanam 1 Swaras and Sahityam",
+          "publicUrl": "/media/songs/endaro-mahanubhavulu/05 20140219-01-Endaro-Charanam1.mp3",
+          "sortOrder": 4
+        },
+        {
+          "id": "cmqqbqn7n000o9k3n9zytlfo5",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "06 20140219-02-Endaro-Charanam2.mp3",
+          "label": "Charanam 2 Swaras and Sahityam",
+          "publicUrl": "/media/songs/endaro-mahanubhavulu/06 20140219-02-Endaro-Charanam2.mp3",
+          "sortOrder": 5
+        },
+        {
+          "id": "cmqqbqn7t000p9k3nzji7t76w",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "07 20140219-03-Endaro-Charanam3.mp3",
+          "label": "Charanam 3 Swaras and Sahityam",
+          "publicUrl": "/media/songs/endaro-mahanubhavulu/07 20140219-03-Endaro-Charanam3.mp3",
+          "sortOrder": 6
+        },
+        {
+          "id": "cmqqbqn7z000q9k3nfch0ojxm",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "08 20140219-04-Endaro-Charanam4.mp3",
+          "label": "Charanam 4 Swaras and Sahityam",
+          "publicUrl": "/media/songs/endaro-mahanubhavulu/08 20140219-04-Endaro-Charanam4.mp3",
+          "sortOrder": 7
+        },
+        {
+          "id": "cmqqbqn84000r9k3nkrouhl4l",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "09 20140219-05-Endaro-Charanam5.mp3",
+          "label": "Charanam 5 Swaras and Sahityam",
+          "publicUrl": "/media/songs/endaro-mahanubhavulu/09 20140219-05-Endaro-Charanam5.mp3",
+          "sortOrder": 8
+        },
+        {
+          "id": "cmqqbqn8a000s9k3nvot7a30b",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "10 20140219-06-Endaro-Charanam6.mp3",
+          "label": "Charanam 6 Swaras and Sahityam",
+          "publicUrl": "/media/songs/endaro-mahanubhavulu/10 20140219-06-Endaro-Charanam6.mp3",
+          "sortOrder": 9
+        },
+        {
+          "id": "cmqqbqn8g000t9k3nfhfrsulg",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "11 20140219-07-Endaro-Charanam7.mp3",
+          "label": "Charanam 7 Swaras and Sahityam",
+          "publicUrl": "/media/songs/endaro-mahanubhavulu/11 20140219-07-Endaro-Charanam7.mp3",
+          "sortOrder": 10
+        },
+        {
+          "id": "cmqqbqn8m000u9k3n34j0fhpi",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "12 20140219-08-Endaro-Charanam8.mp3",
+          "label": "Charanam 8 Swaras and Sahityam",
+          "publicUrl": "/media/songs/endaro-mahanubhavulu/12 20140219-08-Endaro-Charanam8.mp3",
+          "sortOrder": 11
+        },
+        {
+          "id": "cmqqbqn8r000v9k3n2j3ej1rf",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "13 20140219-09-Endaro-Charanam9.mp3",
+          "label": "Charanam 9 Swaras and Sahityam",
+          "publicUrl": "/media/songs/endaro-mahanubhavulu/13 20140219-09-Endaro-Charanam9.mp3",
+          "sortOrder": 12
+        },
+        {
+          "id": "cmqqbqn8y000w9k3nahrddzm5",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "14 20140219-10-Endaro-Charanam10.mp3",
+          "label": "Charanam 10 Sahityam",
+          "publicUrl": "/media/songs/endaro-mahanubhavulu/14 20140219-10-Endaro-Charanam10.mp3",
+          "sortOrder": 13
+        }
+      ]
+    },
+    {
+      "id": "cmqjdj1u6000i2s3nncd2sap7",
+      "slug": "varnam-naattai",
+      "title": "Varnam Naattai",
+      "composer": "Balamuralikrishna",
+      "ragams": "[\"Naattai\"]",
+      "taalam": "Adi",
+      "songType": "Varnam",
+      "language": "Telugu",
+      "deity": "Lord Krishna",
+      "similarLinks": "[]",
+      "media": [
+        {
+          "id": "cmqqbqnam00109k3njr3dpgi9",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "20180730-ENadamulo-Sw-Part1.mp3",
+          "label": "Swaras Learning Part 1",
+          "publicUrl": "/media/songs/varnam-naattai/20180730-ENadamulo-Sw-Part1.mp3",
+          "sortOrder": 0
+        },
+        {
+          "id": "cmqqbqnbi00129k3n8vrnidfh",
+          "type": "pdf",
+          "kind": "notation",
+          "filename": "20180613-ENadamulo-Varnam-Nattai-Adi-BMK-Notation-2.pdf",
+          "label": "",
+          "publicUrl": "/media/songs/varnam-naattai/20180613-ENadamulo-Varnam-Nattai-Adi-BMK-Notation-2.pdf",
+          "sortOrder": 0
+        },
+        {
+          "id": "cmqqbqnau00119k3np9kg85hy",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "20180730-ENadamulo-Sw-Part2.mp3",
+          "label": "Swaras Learning Part 2",
+          "publicUrl": "/media/songs/varnam-naattai/20180730-ENadamulo-Sw-Part2.mp3",
+          "sortOrder": 1
+        }
+      ]
+    },
+    {
+      "id": "cmpqtu47c000lh43n5ezkcg3j",
+      "slug": "varnam-valaji",
+      "title": "Varnam-Valaji",
+      "composer": "N.S. Ramachandran",
+      "ragams": "[\"Valaji\"]",
+      "taalam": "Adi",
+      "songType": "Varnam",
+      "language": "Telugu",
+      "deity": "N/A",
+      "similarLinks": "[]",
+      "media": [
+        {
+          "id": "cmqqbqnc100149k3no6psbyso",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "20170711-Varnam-Valaji-Practice-Recording.MP3",
+          "label": "Swaras Learning",
+          "publicUrl": "/media/songs/varnam-valaji/20170711-Varnam-Valaji-Practice-Recording.MP3",
+          "sortOrder": 0
+        },
+        {
+          "id": "cmqqbqncr00169k3nkly2rxc5",
+          "type": "pdf",
+          "kind": "notation",
+          "filename": "20170626-Varnam-Valaji-Adi-NSR.pdf",
+          "label": "Notation",
+          "publicUrl": "/media/songs/varnam-valaji/20170626-Varnam-Valaji-Adi-NSR.pdf",
+          "sortOrder": 0
+        },
+        {
+          "id": "cmqqbqncb00159k3ntyeq2yj2",
+          "type": "audio",
+          "kind": "recording",
+          "filename": "20171007-Varnam-Valaji-Sahityam-Practice.mp3",
+          "label": "Sahityam Learning",
+          "publicUrl": "/media/songs/varnam-valaji/20171007-Varnam-Valaji-Sahityam-Practice.mp3",
+          "sortOrder": 1
+        }
+      ]
+    }
+  ],
+  "ragaOutlines": [
+    {
+      "id": "cmpqtu48l000ph43nbc10784t",
+      "slug": "abhogi",
+      "title": "Abhogi Outline",
+      "ragam": "Abhogi",
+      "description": null,
+      "media": [
+        {
+          "id": "cmqqbqnd900189k3n6u95xmoa",
+          "type": "audio",
+          "kind": "outline",
+          "filename": "Abhogi Outline.mp3",
+          "label": "Abhogi Outline",
+          "publicUrl": "/media/raga-outlines/abhogi/Abhogi Outline.mp3",
+          "sortOrder": 0
+        }
+      ]
+    },
+    {
+      "id": "cmpqtu48y000rh43n5ebugpy8",
+      "slug": "bahudari",
+      "title": "Bahudari Outline",
+      "ragam": "Bahudari",
+      "description": null,
+      "media": [
+        {
+          "id": "cmqqbqndp001a9k3nyuyyvwbs",
+          "type": "audio",
+          "kind": "outline",
+          "filename": "Bahudari Outline.mp3",
+          "label": "Bahudari Outline",
+          "publicUrl": "/media/raga-outlines/bahudari/Bahudari Outline.mp3",
+          "sortOrder": 0
+        }
+      ]
+    },
+    {
+      "id": "cmpqtu49c000th43ndw03lbp5",
+      "slug": "dvijavanthi",
+      "title": "Dvijavanthi Outline",
+      "ragam": "Dvijavanthi",
+      "description": null,
+      "media": [
+        {
+          "id": "cmqqbqne7001c9k3nexoh5s6m",
+          "type": "audio",
+          "kind": "outline",
+          "filename": "Dvijavanthi Outline.mp3",
+          "label": "Dvijavanthi Outline",
+          "publicUrl": "/media/raga-outlines/dvijavanthi/Dvijavanthi Outline.mp3",
+          "sortOrder": 0
+        }
+      ]
+    },
+    {
+      "id": "cmpqtu49q000vh43n6wqfbllj",
+      "slug": "hindolam",
+      "title": "Hindolam Outline",
+      "ragam": "Hindolam",
+      "description": null,
+      "media": [
+        {
+          "id": "cmqqbqnen001e9k3n1oeho9eu",
+          "type": "audio",
+          "kind": "outline",
+          "filename": "Hindolam Outline.m4a",
+          "label": "Hindolam Outline",
+          "publicUrl": "/media/raga-outlines/hindolam/Hindolam Outline.m4a",
+          "sortOrder": 0
+        }
+      ]
+    }
+  ]
+}

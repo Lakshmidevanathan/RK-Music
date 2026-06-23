@@ -1,6 +1,7 @@
 "use client";
 
 import { displayFileLabel } from "@/lib/display";
+import { assetUrl } from "@/lib/asset-url";
 
 type Track = {
   id: string;
@@ -24,7 +25,7 @@ function TrackRow({ track }: { track: Track }) {
           controls
           preload="metadata"
           className="audio-player w-full max-w-full"
-          src={track.publicUrl}
+          src={assetUrl(track.publicUrl)}
         >
           Your browser does not support audio playback.
         </audio>

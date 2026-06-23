@@ -1,13 +1,9 @@
 import Link from "next/link";
-import { prisma } from "@/lib/prisma";
+import { getRagaOutlines, getSongs } from "@/lib/data";
 
-export const dynamic = "force-dynamic";
-
-export default async function HomePage() {
-  const [songCount, outlineCount] = await Promise.all([
-    prisma.song.count(),
-    prisma.ragaOutline.count(),
-  ]);
+export default function HomePage() {
+  const songCount = getSongs().length;
+  const outlineCount = getRagaOutlines().length;
 
   return (
     <div className="space-y-10">
@@ -15,7 +11,7 @@ export default async function HomePage() {
         <h1 className="text-3xl font-semibold tracking-tight text-foreground">
           Music class <span className="text-accent">resources</span>
         </h1>
-        <p className="max-w-xl text-muted leading-relaxed">
+        <p className="max-w-xl leading-relaxed text-muted">
           Browse Carnatic songs with practice recordings and notation, or listen
           to raga outlines for swara singing practice.
         </p>
@@ -26,7 +22,7 @@ export default async function HomePage() {
           href="/songs"
           className="group rounded-xl border border-border bg-card p-6 shadow-md transition hover:border-accent hover:bg-card-hover hover:shadow-lg"
         >
-          <h2 className="text-xl font-semibold group-hover:text-accent transition-colors">
+          <h2 className="text-xl font-semibold transition-colors group-hover:text-accent">
             Carnatic Songs
           </h2>
           <p className="mt-2 text-sm text-muted">
@@ -42,7 +38,7 @@ export default async function HomePage() {
           href="/raga-outlines"
           className="group rounded-xl border border-border bg-card p-6 shadow-md transition hover:border-accent hover:bg-card-hover hover:shadow-lg"
         >
-          <h2 className="text-xl font-semibold group-hover:text-accent transition-colors">
+          <h2 className="text-xl font-semibold transition-colors group-hover:text-accent">
             Raga Outlines
           </h2>
           <p className="mt-2 text-sm text-muted">
