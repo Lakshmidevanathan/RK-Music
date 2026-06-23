@@ -1,0 +1,17 @@
+title: Devi Neeye Thunai
+composer: Papanasam Sivan
+ragams:
+  - Keeravani
+taalam: Adi
+songType: Krithi
+language: Tamil
+deity: Devi
+recordings:
+  - file: DeviNeeyeThunai Learning.mp3
+    label: "Learning Recording"
+documents:
+  - file: DeviNeeyeThunai Notation.pdf
+    kind: notation
+    label: "Notation"
+    rotateToPortrait: true
+similarSongLinks: []

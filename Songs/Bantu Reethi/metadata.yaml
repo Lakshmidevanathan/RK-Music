@@ -1,0 +1,17 @@
+title: Bantu Reethi
+composer: "Tyagaraja"
+ragams:
+  - "Hamsanadam"
+taalam: "Adi"
+songType: Krithi
+language: Telugu
+deity: Lord Rama
+recordings:
+  - file: 20190224-BantuReethi-Practice-G-148bpm.mp3
+    label: "Learning Recording"
+documents:
+  - file: 20190228-BantuReethi-Hamsanadam-Adi-Notation.pdf
+    kind: notation
+    label: "Notation"
+    rotateToPortrait: true
+similarSongLinks: []

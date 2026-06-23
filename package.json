@@ -1,0 +1,37 @@
+{
+  "name": "rkmusic",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "prisma generate && next build",
+    "start": "next start",
+    "db:push": "prisma db push",
+    "db:studio": "prisma studio",
+    "import": "tsx scripts/import.ts"
+  },
+  "dependencies": {
+    "@prisma/adapter-better-sqlite3": "^6.9.0",
+    "@prisma/client": "^6.9.0",
+    "better-sqlite3": "^11.10.0",
+    "next": "^15.3.3",
+    "pdf-lib": "^1.17.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-pdf": "^9.2.1",
+    "yaml": "^2.8.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.8",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.15.21",
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "eslint": "^9.27.0",
+    "eslint-config-next": "^15.3.3",
+    "prisma": "^6.9.0",
+    "tailwindcss": "^4.1.8",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}

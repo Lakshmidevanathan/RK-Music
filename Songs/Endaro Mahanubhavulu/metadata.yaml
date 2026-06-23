@@ -1,0 +1,47 @@
+title: Endaro Mahanubhavulu
+composer: Tyagaraja
+ragams:
+  - Sri
+taalam: Adi
+songType: Pancharatna Krithi
+language: Telugu
+deity: Lord Rama
+recordings:
+  - file: 01 20140218-19-Endaro-Pallavi-Say.mp3
+    label: Pallavi Words
+  - file: 02 20140218-21-Endaro-Pallavi-Sing.mp3
+    label: Pallavi Singing
+  - file: 03 20140218-20-Endaro-Anupallavi-Say.mp3
+    label: Anupallavi Words
+  - file: 04 20140218-22-Endaro-Anupallavi-Sing.mp3
+    label: Anupallavi Singing
+  - file: 05 20140219-01-Endaro-Charanam1.mp3
+    label: Charanam 1 Swaras and Sahityam
+  - file: 06 20140219-02-Endaro-Charanam2.mp3
+    label: Charanam 2 Swaras and Sahityam
+  - file: 07 20140219-03-Endaro-Charanam3.mp3
+    label: Charanam 3 Swaras and Sahityam
+  - file: 08 20140219-04-Endaro-Charanam4.mp3
+    label: Charanam 4 Swaras and Sahityam
+  - file: 09 20140219-05-Endaro-Charanam5.mp3
+    label: Charanam 5 Swaras and Sahityam
+  - file: 10 20140219-06-Endaro-Charanam6.mp3
+    label: Charanam 6 Swaras and Sahityam
+  - file: 11 20140219-07-Endaro-Charanam7.mp3
+    label: Charanam 7 Swaras and Sahityam
+  - file: 12 20140219-08-Endaro-Charanam8.mp3
+    label: Charanam 8 Swaras and Sahityam
+  - file: 13 20140219-09-Endaro-Charanam9.mp3
+    label: Charanam 9 Swaras and Sahityam
+  - file: 14 20140219-10-Endaro-Charanam10.mp3
+    label: Charanam 10 Sahityam
+documents:
+  - file: Notation endarO mahAnubhAvulu.pdf
+    kind: notation
+    label: Notation
+    rotateToPortrait: true
+  - file: endarO mahAnubhAvulu Phrases v2.pdf
+    kind: other
+    label: Phrases
+    rotateToPortrait: true
+similarSongLinks: []

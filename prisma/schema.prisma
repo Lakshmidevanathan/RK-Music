@@ -1,0 +1,55 @@
+generator client {
+  provider   = "prisma-client-js"
+  engineType = "client"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Song {
+  id           String        @id @default(cuid())
+  slug         String        @unique
+  title        String
+  composer     String?
+  ragams       String        @default("[]")
+  taalam       String?
+  songType     String?
+  language     String?
+  deity        String?
+  similarLinks String        @default("[]")
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+  media        MediaAsset[]
+}
+
+model RagaOutline {
+  id          String        @id @default(cuid())
+  slug        String        @unique
+  title       String
+  ragam       String
+  description String?
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+  media       MediaAsset[]
+}
+
+model MediaAsset {
+  id            String       @id @default(cuid())
+  type          String
+  kind          String
+  filename      String
+  label         String?
+  mimeType      String
+  storageKey    String
+  publicUrl     String
+  sortOrder     Int          @default(0)
+  songId        String?
+  ragaOutlineId String?
+  song          Song?        @relation(fields: [songId], references: [id], onDelete: Cascade)
+  ragaOutline   RagaOutline? @relation(fields: [ragaOutlineId], references: [id], onDelete: Cascade)
+
+  @@index([songId])
+  @@index([ragaOutlineId])
+}

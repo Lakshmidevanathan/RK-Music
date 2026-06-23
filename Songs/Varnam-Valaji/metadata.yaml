@@ -1,0 +1,19 @@
+title: Varnam-Valaji
+composer: "N.S. Ramachandran"
+ragams:
+  - "Valaji"
+taalam: "Adi"
+songType: Varnam
+language: Telugu
+deity: N/A
+recordings:
+  - file: 20170711-Varnam-Valaji-Practice-Recording.MP3
+    label: "Swaras Learning"
+  - file: 20171007-Varnam-Valaji-Sahityam-Practice.mp3
+    label: "Sahityam Learning"
+documents:
+  - file: 20170626-Varnam-Valaji-Adi-NSR.pdf
+    kind: notation
+    label: "Notation"
+    rotateToPortrait: true
+similarSongLinks: []

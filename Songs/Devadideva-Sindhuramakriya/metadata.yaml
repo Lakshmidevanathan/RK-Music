@@ -1,0 +1,28 @@
+title: Devadi deva sadasiva
+composer: Tyagaraja
+ragams:
+  - Sinduramakriya
+taalam: Adi
+songType: Krithi
+language: Sanskrit
+deity: Siva
+documents:
+  - file: Devadi deva sadasiva notation.pdf
+    kind: notation
+    rotateToPortrait: true
+    label: Notation
+  - file: Devadi deva sadasiva lyrics and meaning.pdf
+    kind: lyrics
+    label: Lyrics and meaning
+recordings:
+  - file: 01-Pallavi Devadideva Sadasiva.mp3
+    label: Pallavi
+  - file: 02-Anupallavi Devadideva Sadasiva.mp3
+    label: Anupallavi
+  - file: 03-Caranam Devadideva Sadasiva.mp3
+    label: Caranam
+similarSongLinks:
+  - label: M.S. Subbulakshmi version
+    url: https://www.youtube.com/watch?v=TlCgD1bAl-Y
+  - label: Ashwath Narayanan version
+    url: https://www.youtube.com/watch?v=y1c0_4ICFik

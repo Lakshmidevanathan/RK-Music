@@ -1,0 +1,19 @@
+title: Varnam Naattai
+composer: "Balamuralikrishna"
+ragams:
+  - "Naattai"
+taalam: "Adi"
+songType: Varnam
+language: Telugu
+deity: Lord Krishna
+recordings:
+  - file: 20180730-ENadamulo-Sw-Part1.mp3
+    label: "Swaras Learning Part 1"
+  - file: 20180730-ENadamulo-Sw-Part2.mp3
+    label: "Swaras Learning Part 2"
+documents:
+  - file: 20180613-ENadamulo-Varnam-Nattai-Adi-BMK-Notation-2.pdf
+    kind: notation
+    label: ""
+    rotation: 180
+similarSongLinks: []

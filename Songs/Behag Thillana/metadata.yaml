@@ -1,0 +1,23 @@
+title: Behag Thillana
+composer: "Harikesanallur Muthiah Bhagavathar"
+ragams:
+  - "Behag"
+taalam: "Adi"
+songType: Thillana
+language: Sanskrit
+deity: Devi
+recordings:
+  - file: 20141025-01-Thillana-Behag.mp3
+    label: "Pallavi"
+  - file: 20141025-02-Thillana-Behag.mp3
+    label: "Anupallavi"
+  - file: 20141025-03-Thillana-Behag.mp3
+    label: "Caranam Part 1"
+  - file: 20141025-04-Thillana-Behag.mp3
+    label: "Caranam Part 2"
+documents:
+  - file: 20160603-Behag-Tillana-HKMB-Notn.pdf
+    kind: notation
+    label: "Notation"
+    rotateToPortrait: true
+similarSongLinks: []
